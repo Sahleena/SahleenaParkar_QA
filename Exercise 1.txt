@@ -1,0 +1,17 @@
+// Encapsulation 
+Encapsulation is the mechanism of wrapping data variables in certain classes. 
+Data is made private and can only be accessed through their classes methods I.E getters and setters.
+An example of this can be suing a student class. All student data I.E their grades are encapsulated and can be accessed using the class get() method. 
+
+// Inheritance 
+Inheritance is where one class acquires the methods and fields of another class.
+An example can be having a class for animals and dog inherits from the animal class. 
+The dog class can now use all the methods and fields from the animal class.
+
+// Polymorphism 
+Polymorphism is when an object can have more than one form. 
+For example, an array can be of type Ticket but there can be many different tickets. 
+
+// Abstraction 
+Abstraction is used to hide the implementation details and only display showing the functionality.
+An example can be in a ticket machine, the abstract ticket class holds the main methods and is only aware of what it needs to know to carry out its tasks. It is not aware of how many ticket types there may be, only that every type of ticket has a price and a 'type'; which is all it needs to know to calculate the price of the tickets or remove previously selected tickets.
